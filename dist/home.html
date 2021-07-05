@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Dosis");
+    </style>
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Ziaur Rahman| Junior Web Developer</title>
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="home">
+      <div class="container">
+        <!-- Navbar -->
+        <nav id="main-nav">
+          <img src="./img/logo.png" alt="" id="logo" />
+          <ul>
+            <li><a href="#home" class="current">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Conatct</a></li>
+          </ul>
+        </nav>
+
+        <!-- Header Content -->
+        <div class="header-content">
+          <h1>
+            I am Ziaur Rahman<br />The
+            <span
+              class="txt-type"
+              data-wait="2000"
+              data-words='["Developer", "Designer", "Learner"]'
+            ></span>
+          </h1>
+          <p class="lead">I Specialize In Front End Web Developing.</p>
+          <a href="#projects" class="btn-light">View My Work</a>
+        </div>
+      </div>
+    </header>
+    <!-- About Me -->
+    <section id="about" class="text-center py-3">
+      <div class="container">
+        <div class="reveal">
+          <h2 class="section-title">About Me</h2>
+          <div class="bottom-line"></div>
+          <p class="lead">Let me tell you about myself and what I do...</p>
+        </div>
+        <div class="about-info">
+          <img src="./img/shamim.png" alt="" class="bio-img reveal" />
+          <div class="bio bg-medium reveal">
+            <h4>Your Project Is In Safe Hand.</h4>
+            <p>
+              I am ambitious, career-focused job seeker, anxious to obtain a
+              front end web designing position to help launch career in web
+              developing while achieving company goals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills section -->
+    <section id="skills" class="bg-dark py-3">
+      <div class="container reveal">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="bottom-line"></div>
+
+        <h4>HTML5</h4>
+        <div class="progress">
+          <div style="width: 92%"></div>
+        </div>
+
+        <h4>CSS3</h4>
+        <div class="progress">
+          <div style="width: 88%"></div>
+        </div>
+
+        <h4>Bootstrap</h4>
+        <div class="progress">
+          <div style="width: 90%"></div>
+        </div>
+
+        <h4>Java Script</h4>
+        <div class="progress">
+          <div style="width: 65%"></div>
+        </div>
+
+        <h4>Saas</h4>
+        <div class="progress">
+          <div style="width: 72%"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Project Section -->
+    <section id="projects" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">My Work</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Check Out Some Of My Work</p>
+        <div class="items">
+          <div class="item">
+            <div class="item-image">
+              <img src="./img/pro-1.png" alt="" />
+            </div>
+            <div class="item-text">
+              <div class="item-text-wrap">
+                <p class="item-text-category">Design</p>
+                <h2 class="item-text-title"><a href="">Image Slider.</a></h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-image">
+              <img src="./img/pro-3.png" alt="" />
+            </div>
+            <div class="item-text">
+              <div class="item-text-wrap">
+                <p class="item-text-category">Design</p>
+                <h2 class="item-text-title">
+                  <a href="https://zrshamim.github.io/weaberProject/"
+                    >Portfolio Design.</a
+                  >
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-image">
+              <img src="./img/pro-2.png" alt="" />
+            </div>
+            <div class="item-text">
+              <div class="item-text-wrap">
+                <p class="item-text-category">Design</p>
+                <h2 class="item-text-title">
+                  <a href="https://zrshamim.github.io/HungryMonster/"
+                    >Meal Search.</a
+                  >
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact Section -->
+    <section id="contact" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Here is how you can reach me.</p>
+
+        <form method="post" data-netlify="true" data-netlify-recaptcha="true">
+          <div class="text-fields">
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="Name"
+              name="name"
+            />
+            <input
+              type="text"
+              class="text-input subject-input"
+              placeholder="Subject"
+              name="subject"
+            />
+            <input
+              type="email"
+              class="text-input email-input"
+              placeholder="Email Address"
+              name="email"
+            />
+            <input
+              type="text"
+              class="text-input phone-input"
+              placeholder="Phone Number"
+              name="phone"
+            />
+            <textarea
+              class="text-input message-input"
+              placeholder="Enter Message"
+              name="message"
+            ></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+
+        <div class="contact-info py-3">
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>Email</h3>
+            <p>zrshamim8822@gmail.com</p>
+          </div>
+
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>Phone</h3>
+            <p>+8801842357696</p>
+          </div>
+
+          <div>
+            <i class="fas fa-address-card fa-2x"></i>
+            <h3>Address</h3>
+            <p>S.Keraniganj, Dhaka, Bangladesh</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2021. All Right Reserved.</p>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/ziaur-rahman-shamim-4019a71aa/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/ZRShamim"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.youtube.com/channel/UCKHF7nnmqIcxk-1JDBwfzGA"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a href="https://www.facebook.com/Ziaur1Shamim"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
